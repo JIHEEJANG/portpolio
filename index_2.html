@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimun-scale=1">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/style_2.css" type="text/css"> -->
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile.swipeUpDown.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="../jquery.imageScroll.js"></script>
+
+</head>
+
+<style type="text/css">
+    body { width: 100%;  word-break: keep-all; font-weight: 550;  max-width: 600px;
+    text-align: center; 
+    margin: auto; background-color: #0f0f19;}
+    div { width: 100%; }
+
+    
+.start_elm { opacity: 0; }
+
+
+*section { width: 100%; float: left; z-index: 1; position: absolute; } 
+/*p { line-height: 1.15em;}*/
+
+div.bg_1 { height: 600px; background-image:url(./images/1_run.png); 
+    background-size: contain; background-repeat: no-repeat; 
+    background-position: top center; z-index: ; position: absolute; }
+    
+div.mtx { color: #f9f9f9; word-break: keep-all; 
+    padding-top: 230px; text-align: center;}
+p.mt1 { font-size: 2.8em; margin-top: 5px; 
+    letter-spacing:10px; font-weight: 600;}
+p.mt2 { font-size: 1.1em; margin-top: 40px; }
+
+
+div.bg_2 { width: 100%; height: 1000px; background-image:url(); 
+background-size: cover; background-repeat: no-repeat; 
+background-position: top center; background-color: #0f0f19; position:absolute; z-index: -1; top: 600px;}
+
+div.bg_3 { width: 100%; height: 1400px; padding-top: 150px;
+background-size: contain; background-repeat: no-repeat; 
+background-position: top center; background-image: url(./images/city_1.png); position:absolute; z-index: -1;}
+
+
+
+div.stx_1 {width: 87.5%; color: #f9f9f9; word-break: keep-all; margin: 0 auto; background-color: rgba( 000, 000, 000,); box-shadow: #000;} 
+p.mt3 { width: 100%;  line-height: 1.8em; color: #f9f9f9; font-size: 1.2em; text-align: left;}
+
+
+div.stx_2 {width: 100%; height: 800px; background-color: #f9f9f9; word-break: keep-all;
+            position: relative; z-index: 0; text-align: left; padding: 100px 0 70px 20px; box-shadow: #0f0f19;
+            background-size: cover; background-position: top; background-repeat: no-repeat; } 
+
+p.mt4 { width: 100%;  line-height: 1.35em; font-weight: 600; font-size: 1.4em; }
+
+
+    
+div.stx_3 {width: 100%; word-break: keep-all;
+ padding: 50px 0 50px 0; color: #f9f9f9; } 
+     
+    
+ div.stx_4 {width: 100%; word-break: keep-all;
+ padding: 80px 0 50px 0; color: #f9f9f9; } 
+     
+
+</style>
+<!-- &nbsp; -->
+
+	
+<body style="height: 20000vh;">
+    <section class="sect_1">
+        <div class="bg_1">
+            <div class="mtx">
+                <p class="mt1 start_elm">성 경 속</p>
+                <p class="mt1 start_elm">위기탈출</p>
+                <p class="mt1 start_elm">매 뉴 얼</p>
+                <p class="mt2 start_elm" style="margin-bottom: 50px;">만가지 재앙에서 피하는 방법</p>
+                <img class="blink start_elm" src="images/scroll_down.png" style="width: 30px;">
+            </div>
+        </div>
+    </section>
+
+    <!--<div class="bg_2" style=""></div> -->
+    <div style="z-index:9999; height:fit-content; height: 1500px;"
+    data-0="z-index:9999; position:fixed; top:800px; opacity:1" 
+    data-400="z-index:9999; position:fixed; top:0; opacity:1">
+    <div class="bg_3" style="">
+        <div class="stx_1">
+            <p class="mt3">
+                오늘날 우리들은 세계평화를 외치며<br>
+                ‘나는 안전하게 살고 있다’ 자부하지만<br>
+                세계 곳곳에선 <span style="">온갖 재앙들이</span><br>
+                발생하고 있는 현실 속에 살고 있습니다.<br>
+            </p>
+        </div>
+    </div>
+
+    <div style="z-index:9999;  height:fit-content; height: 1500px;"
+    data-0="z-index:9999; position:fixed; top:1500px; opacity:1" 
+    data-1000="z-index:9999; position:fixed; top:0; opacity:1">
+    <div style="width: 100%; height: 1800px;">
+        <div class="stx_2" style="">
+            <img src="./images/bible.png" alt="" style="position:absolute; z-index: -1; left: -50px; top: 260px; width: 700px; transform: rotate(30deg);">
+            <p class="mt4">이러한 지구에서<br>살고 있는</p>
+            <p class="mt4">우리들의 현실에 대해</p>
+            <p class="mt4">성경은 어떻게<br> 기록하고 있을까요?</p>
+        </div>
+    </div>
+    </div>
+
+    <div style="z-index: 999; background: #0f0f19;margin: auto; width: 100%; height: 1800px;" 
+    data-0="z-index:9999; position:fixed; top:1300px; opacity:1"  
+    data-1800="z-index:9999; position:fixed; top:0px; opacity:1">
+    <div style="width: 100%; height: 1800px;">
+        <div class="stx_3" style="">
+            <span style="font-weight: 600; font-size: 1 em;">마태복음24장3-8절</span>
+            <p class="mt4" style="color: #f9f9f9; margin-top: 10px;">
+                주의 임하심과 세상 끝에는<br>
+                무슨징조가있사오리이까…<br>
+        </div>
+    </div>
+
+    <div style="z-index: 999; background:#0f0f19 ; margin: auto; width: 100%; height: 1800px;" 
+    data-0="z-index:9999; position:fixed; top:1300px; opacity:1"  
+    data-2100="z-index:9999; position:fixed; top:0px; opacity:1">
+    <div style="width: 100%; height: 1800px;">
+        <div class="stx_4" style="color: #f9f9f9;">
+            <p class="mt4">
+                <span style="color:brown; font-weight: 600; font-size: 1.2em;">민족이 민족을,나라가나라를</span><br>
+                대적하여 일어나겠고</p><br><br><br><br><br><br>
+                <span style=" font-weight: 600; font-size: 1.2em;">러,우크라 도심,민간인 겨냥<br>대량살상 무기<br>'무차별 폭벽'</span><br>
+                <span style=" font-weight: 600; font-size: 1em;">헤럴드경제/2022.3</span><br>
+                </p>
+            <img src="./images/war.jpg" alt="" style="position:absolute; z-index: -1; left: -50px; top: 200px; width: 700px; opacity: 0.5; ">
+        </div>
+    </div>
+
+
+    <div style="z-index: 999; background:#0f0f19; margin: auto; width: 100%; height: 1800px;" 
+    data-0="z-index:9999; position:fixed; top:1300px; opacity:1"  
+    data-3400="z-index:9999; position:fixed; top:0px; opacity:1">
+    <div style="width: 100%; height: 1800px;">
+        <div class="stx_4" style="">
+            <p class="mt4">                
+                <span style="color:brown; font-weight: 600; font-size: 1.1em;">처처에 기근과 지진이 있으리니</span><br>
+                이 모든 것이 재난의 시작이니라</p><br><br><br><br><br><br>
+                <span style=" font-weight: 600; font-size: 1.8em;">2021년 이후 강도 8이상<br> 지진건수 3건</span><br><br>
+                <span style=" font-weight: 600; font-size: 1em;">USGS 미국지질조사국</span><br>
+                </p>
+            <img src="./images/jijin.jpg" alt="" style="position:absolute; z-index: -1; left: -50px; top: 200px; width: 700px; opacity: 0.5; ">
+ 
+            </p>
+        </div>
+    </div>
+
+
+    <!-- <section class="sect_2">
+        <div class="bg_2">
+            <div class="stx_2">
+                <p class="mt4">이러한 지구에서 살고 있는</p>
+                <p class="mt4">우리들의 현실에 대해</p>
+                <p class="mt4">성경은 어떻게 기록하고 있을까요?</p>
+        </div>
+            <div class="stx_3">
+                <p class="mt4">
+                    주의 임하심과 세상 끝에는<br>
+                    무슨징조가있사오리이까…<br>
+                    <span style="color:brown; font-weight: 600; font-size: 1.3em;">민족이 민족을,나라가나라를</span><br>
+                    대적하여 일어나겠고
+                </p>
+                <p class="mt4">처처에 <span style="color:brown; font-weight: 550; font-size: 1.3em;">기근</span>과
+                     <span style="color:brown; font-weight: 550; font-size: 1.3em;">지진</span>이 있으리니 <br> 이 모든 것이 재난의 시작이니라</span></p>
+                <p class="mt4" style="font-size: 1em; margin-top:10px ">마태복음24장3-8절</p>
+    
+    
+        </div>
+        </div>
+
+    </section> -->
+
+
+    <script>
+    var load_act = (function(){
+		var $start_elm = $('.start_elm');
+		var $time = 300;
+		$start_elm.each(function(idx, elm){
+			$(this).delay(idx * $time).animate({ 'opacity': 1 }, $time, function(){
+				$(this).removeClass("start_elm");
+				console.log(idx);
+				if(idx == $start_elm.length - 1){
+					scrollEvent = false;
+				}
+			});
+		});
+	})();
+
+            var s = skrollr.init({
+                forceHeight: false,
+                smoothScrollingDuration: 500,
+                mobileCheck: function(){
+                    if((/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+                        // mobile device
+                    }
+                }
+            });
+
+            //메인화면 아래화살표 깜빡이
+            var element = $(".blink");
+            var shown = true;
+            setInterval(toggle, 500);
+            function toggle() {
+            if(shown) {
+                shown = false;
+                element.animate({
+                opacity: 0,
+                }, 1000 );
+            } else {
+                shown = true;
+                element.animate({
+                opacity: 1,
+                }, 1000 );
+            }
+            }
+
+            var touch = Modernizr.touch;
+             $('.img-holder').imageScroll({ 
+                 imageAttribute: (touch === true) ? 'image-mobile' : 'image', 
+                 touch: touch
+                 });
+
+
+
+        
+    </script>
+
+
+
+
+
+</body>
+
+</html>
+
+
+<!-- position: absolute; 
+                top: 50%; left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);" */ --->
+
+
+            
+
+<!-- <section class="sect_1">
+    <div class="bg_1">
+        <div class="mtx">
+            <p class="mt1">성 경 속</p>
+            <p class="mt1">위기탈출</p>
+            <p class="mt1">매 뉴 얼</p>
+            <p class="mt2">만가지 재앙에서 피하는 방법</p>
+        </div>
+        <div class="stx_1">
+            <p class="mt3">
+                <span style="font-size: 1.7em; font-weight: 550;">오늘날 우리들은</span><br> 세계평화를 외치며<br>
+                ‘나는 안전하게 살고 있다’ 자부하지만<br>
+                세계 곳곳에선 <span style="color:brown;">온갖 재앙들이</span><br>
+                발생하고 있는 현실 속에 살고 있습니다.<br>
+            </p>
+        </div>
+    </div>
+</section>
+<section class="sect_2">
+    <div class="bg_2">
+        <div class="stx_2">
+            <p class="mt4">이러한 지구에서 살고 있는</p>
+            <p class="mt4">우리들의 현실에 대해</p>
+            <p class="mt4">성경은 어떻게 기록하고 있을까요?</p>
+    </div>
+        <div class="stx_3">
+            <p class="mt4">
+                주의 임하심과 세상 끝에는<br>
+                무슨징조가있사오리이까…<br>
+                <span style="color:brown; font-weight: 600; font-size: 1.3em;">민족이 민족을,나라가나라를</span><br>
+                대적하여 일어나겠고
+            </p>
+            <p class="mt4">처처에 <span style="color:brown; font-weight: 550; font-size: 1.3em;">기근</span>과
+                 <span style="color:brown; font-weight: 550; font-size: 1.3em;">지진</span>이 있으리니 <br> 이 모든 것이 재난의 시작이니라</span></p>
+            <p class="mt4" style="font-size: 1em; margin-top:10px ">마태복음24장3-8절</p>
+
+
+    </div>
+    </div>
+</section> -->

@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimun-scale=1">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/style_2.css" type="text/css"> -->
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile.swipeUpDown.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<style type="text/css">
+            .background {
+                position: fixed;
+                width: 100%; 
+                max-width: 600px;
+                max-height: 100%;
+                margin: auto;
+                top: 0;
+                left: 0;
+                right: 0;
+            }
+
+            .main_images {
+                position: fixed;
+                width: 100%;
+                max-width: 600px;
+                max-height: 100%;
+                margin: auto;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+            }
+
+            body {
+                max-width: 600px;
+                text-align: center;
+                margin: auto;
+            }
+            img {
+                width: 100%;
+                height: auto;
+                max-width: 600px;
+            }
+
+            a:link { color: black; text-decoration: none;}
+            a:visited { color: black; text-decoration: none;}
+            a:hover { color: black; text-decoration: none;}
+
+
+</style>
+<!-- &nbsp; -->
+
+	
+<body style="height: 6000px;">
+    <img class="background" src="images/.png">
+    <div id="skrollr-body">
+        <div data-0="background-color:rgb(255, 236, 236);" data-600="background-color:rgb(255, 255, 255);">
+            <div style="height: 1000px; line-height: 600px;">
+                    <img class="blink" src="images.png" style="width: 60px; vertical-align: bottom;">
+            </div>
+        </div>
+
+        <div style="z-index:120; height: 600px;" data-200="position:fixed; top:0; right:0; opacity:0" 
+        data-700="position:fixed; top:0; right:0; opacity:1"
+        data-1700="position:fixed; top:0; left:0; opacity:0">
+                <img src="images/mian_img_2.jpg"></img>
+        </div>
+
+        <div style="z-index:120;  height: 600px;" data-400="position:fixed; top:500px; right:0; opacity:0" 
+        data-900="position:fixed; top:0; right:0; opacity:1"
+        data-1700="position:fixed; top:0; left:0; opacity:0">
+            <img src="images/circle_all.png"></img>
+        </div>
+
+        <div style="z-index:9999; background: white" 
+        data-800="z-index:9999; position:fixed; top:1000px; opacity:1" 
+        data-1700="z-index:9999; position:fixed; top:95px; opacity:1">
+            <img src="images/notice.png"></img>
+        </div>
+
+
+        
+        <div style="z-index: 999; background: white; margin: auto; width: 100%; max-width: 600px; padding-bottom: 50px; padding-top: 15px;" 
+        data-1700="z-index:9999; position:fixed; top:1000px; opacity:1"  
+        data-2600="z-index:9999; position:fixed; top:0px; opacity:1">
+            <p><h3 style="text-align: left; margin-left: 21px;">오시는 길</h3></p>                   
+            <!--
+                * Daum 지도 - 약도서비스
+                * 한 페이지 내에 약도를 2개 이상 넣을 경우에는
+                * 약도의 수 만큼 소스를 새로 생성, 삽입해야 합니다.
+            -->
+            <!-- 1. 약도 노드 -->
+            <div id="daumRoughmapContainer1536567573195" class="root_daum_roughmap root_daum_roughmap_landing" style="margin: auto"></div>
+
+            <!-- 2. 설치 스크립트 -->
+            <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+            <!-- 3. 실행 스크립트 -->
+            <script charset="UTF-8">
+                new daum.roughmap.Lander({
+                    "timestamp" : "1536567573195",
+                    "key" : "px4h",
+                    "mapWidth" : "340",
+                    "mapHeight" : "200"
+                }).render();
+            </script>
+            <p style="text-align: left"><h5 style="text-align: left; margin-left: 21px;">셔틀버스 </h3>
+                <h5 style="text-align: left; margin-left: 21px;">
+                    3,7,9호선 고속터미널역 <span style="color:red">6번 출구 앞</span><br>
+                    10~15분 간격으로 운행
+                </h5>
+            </p>
+            <p style="text-align: left"><h5 style="text-align: left; margin-left: 21px;">자가용 </h3>
+                <h5 style="text-align: left; margin-left: 21px;">
+                    반포대교가 아닌 잠수교를 이용하셔야<br>
+                    식장으로 진입가능합니다.
+                </h5>
+            </p>
+        </div>
+
+        <div style="z-index:999; background: white; margin-top: 2500px" 
+            data-2600="z-index:9999; position:relative; opacity:1" 
+            data-3300="position:relative; opacity:1">
+            <p><h3 style="text-align: left; margin-left: 21px; padding-top: 20px">사진 보기</h3></p>
+            <img src="images/1.jpg"></img>
+            <img src="images/2.jpg"></img>
+            <img src="images/3.jpg"></img>
+            <img src="images/4.jpg"></img>
+            <!--
+                이미지 계속 추가 가능
+            -->
+            
+            <p><h3 style="text-align: left; margin-left: 21px; padding-top: 20px">연락 하기</h3></p>
+                <a href="tel:01012345678" style=" text-decoration:none;">
+                    <img src="images/call_bk.png" style="width: 85%; margin-top: 10px; margin-bottom: 10px">
+                </a>
+                <a href="tel:01012345678" style=" text-decoration:none;">
+                    <img src="images/call_dm.png" style="width: 85%; margin-bottom: 40px">    
+                </a>
+        </div>
+
+   
+    </div>
+
+
+
+
+
+
+<script type="text/javascript">
+    var s = skrollr.init({
+        forceHeight: false,
+        smoothScrollingDuration: 500,
+        mobileCheck: function(){
+            if((/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+                // mobile device
+            }
+        }
+    });
+
+    //메인화면 아래화살표 깜빡이
+    var element = $(".blink");
+    var shown = true;
+    setInterval(toggle, 1500);
+    function toggle() {
+    if(shown) {
+        shown = false;
+        element.animate({
+        opacity: 0,
+        }, 1500 );
+    } else {
+        shown = true;
+        element.animate({
+        opacity: 1,
+        }, 1500 );
+    }
+    }
+
+
+    var load_act = (function(){
+		var $start_elm = $('.start_elm');
+		var $time = 300;
+		$start_elm.each(function(idx, elm){
+			$(this).delay(idx * $time).animate({ 'opacity': 1 }, $time, function(){
+				$(this).removeClass("start_elm");
+				console.log(idx);
+				if(idx == $start_elm.length - 1){
+					scrollEvent = false;
+				}
+			});
+		});
+	})();
+
+</script>
+
+
+
+
+
+</body>
+
+</html>
+
+
+<!-- position: absolute; 
+                top: 50%; left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);" */ --->
+
+
+            
+
+<!-- <section class="sect_1">
+    <div class="bg_1">
+        <div class="mtx">
+            <p class="mt1">성 경 속</p>
+            <p class="mt1">위기탈출</p>
+            <p class="mt1">매 뉴 얼</p>
+            <p class="mt2">만가지 재앙에서 피하는 방법</p>
+        </div>
+        <div class="stx_1">
+            <p class="mt3">
+                <span style="font-size: 1.7em; font-weight: 550;">오늘날 우리들은</span><br> 세계평화를 외치며<br>
+                ‘나는 안전하게 살고 있다’ 자부하지만<br>
+                세계 곳곳에선 <span style="color:brown;">온갖 재앙들이</span><br>
+                발생하고 있는 현실 속에 살고 있습니다.<br>
+            </p>
+        </div>
+    </div>
+</section>
+<section class="sect_2">
+    <div class="bg_2">
+        <div class="stx_2">
+            <p class="mt4">이러한 지구에서 살고 있는</p>
+            <p class="mt4">우리들의 현실에 대해</p>
+            <p class="mt4">성경은 어떻게 기록하고 있을까요?</p>
+    </div>
+        <div class="stx_3">
+            <p class="mt4">
+                주의 임하심과 세상 끝에는<br>
+                무슨징조가있사오리이까…<br>
+                <span style="color:brown; font-weight: 600; font-size: 1.3em;">민족이 민족을,나라가나라를</span><br>
+                대적하여 일어나겠고
+            </p>
+            <p class="mt4">처처에 <span style="color:brown; font-weight: 550; font-size: 1.3em;">기근</span>과
+                 <span style="color:brown; font-weight: 550; font-size: 1.3em;">지진</span>이 있으리니 <br> 이 모든 것이 재난의 시작이니라</span></p>
+            <p class="mt4" style="font-size: 1em; margin-top:10px ">마태복음24장3-8절</p>
+
+
+    </div>
+    </div>
+</section> -->
